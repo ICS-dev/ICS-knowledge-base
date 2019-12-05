@@ -3,7 +3,7 @@ concept_human -> Aaron_Sorkin;;
 Aaron_Sorkin
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Доминик Уэст]
+	[Аарон Соркин]
 	(* <- lang_ru;;	*);
 	[Aaron Sorkin]
 	(* <- lang_en;;	*);;
@@ -12,7 +12,7 @@ Aaron_Sorkin <-rrel_key_sc_element:...
 (*
 	<-definition;;
 	=>nrel_main_idtf:
-		[Описание (Доминик Уэст)](*<-lang_ru;;*);
+		[Описание (Аарон Соркин)](*<-lang_ru;;*);
 		[Description (Aaron_Sorkin)](*<-lang_en;;*);;
 	<=nrel_using_constants:
 	{
@@ -29,7 +29,7 @@ Aaron_Sorkin <-rrel_key_sc_element:...
 (*
 	<-illustration;;
 	=>nrel_main_idtf:
-		[Рис. (Доминик Уэст)](*<-lang_ru;;*);
+		[Рис. (Аарон Соркин)](*<-lang_ru;;*);
 		[Pic. (Aaron_Sorkin)](*<-lang_en;;*);;
 	<=nrel_sc_text_translation:...
 	(*
